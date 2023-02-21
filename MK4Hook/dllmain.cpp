@@ -32,6 +32,7 @@ void Init()
     eSettingsManager::Init();
     CreateThread(nullptr, 0, reinterpret_cast<LPTHREAD_START_ROUTINE>(HookUpdate), nullptr, 0, nullptr);
 
+    // breaks a lot of stuff
     if (eSettingsManager::bDisableBackground)
     {
         Nop(0x4B9EB5, 5);

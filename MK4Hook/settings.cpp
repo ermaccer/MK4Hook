@@ -4,7 +4,6 @@
 bool eSettingsManager::bEnableFreeCamera;
 bool eSettingsManager::bDisableBackground;
 bool eSettingsManager::bDisableFatalityCamera;
-CIniReader* eSettingsManager::i;
 
 void eSettingsManager::Init()
 {
