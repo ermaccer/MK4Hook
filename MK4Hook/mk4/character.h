@@ -1,0 +1,24 @@
+#pragma once
+
+
+enum eCharacters {
+	SCORPION,
+	RAIDEN,
+	SONYA,
+	LIUKANG,
+	SUBZERO,
+	FUJIN,
+	SHINNOK,
+	REIKO,
+	QUANCHI,
+	TANYA,
+	REPTILE,
+	KAI,
+	JAREK,
+	JAX,
+	CAGE,
+	GORO,
+	KITANA,
+	NOOBSAIBOT,
+	TOTAL_CHARACTERS,
+};
